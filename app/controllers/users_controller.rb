@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def new
-    # Provide the model instance to the form_for helper
+
     @user = Users.new
   end
 
@@ -16,7 +16,6 @@ class UsersController < ApplicationController
 
 private
 
-    # Implement Strong Params
     def user_params
       params.require(:user).permit(:name, :email, :password, :password_confirmation)
     end

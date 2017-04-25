@@ -1,2 +1,3 @@
 class Writer < ApplicationRecord
+
 end

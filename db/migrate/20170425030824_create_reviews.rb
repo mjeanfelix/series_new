@@ -4,7 +4,7 @@ class CreateReviews < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :rating
       t.string :review
-      t.string :link_to_related-site
+      t.string :link_to_related_site
 
       t.timestamps
     end
